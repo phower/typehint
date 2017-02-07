@@ -1,0 +1,24 @@
+{
+    "name": "phower/typehint",
+    "description": "Type hint scalar arguments compatible with PHP 5.3",
+    "type": "library",
+    "require": {
+        "php": ">= 5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phower\\TypeHint\\": "src/",
+            "PhowerTests\\TypeHint\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Ferreira",
+            "email": "pedro@phower.com"
+        }
+    ]
+}
